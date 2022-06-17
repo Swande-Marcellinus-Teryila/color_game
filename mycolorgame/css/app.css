@@ -1,0 +1,99 @@
+
+body{
+    background-color: aliceblue;
+}
+.title{
+    background: linear-gradient(red,green,blue);
+    color:blue;
+    text-shadow: 4px 3px 4px  rgb(230, 240, 237);
+    text-align: center;
+    position:sticky;
+    font-size:60px;
+    text-transform: uppercase;
+    
+}
+.container {
+    
+    display: flex;
+   
+}
+.left-bar{
+    width:20%;
+    background:white;
+}
+.middle-bar{
+    border-radius: 18
+    px;
+    width:60%;
+    background:radial-gradient(rgb(110, 12, 12) 10%,rgb(119, 177, 119) 50%,rgb(48, 48, 221));
+    height: fit-content;
+}
+.right-bar{
+    width:20%;
+    background-color:white;
+}
+
+
+.color-buttons button{
+     width:32.5%;
+    
+     height:70px;
+     font-size: 15px;
+     border-radius: 20px;
+}
+.question{
+   display: flex;
+    width: 100%;
+    align-items: center;
+   
+}
+
+.btn-card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.btn-card2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.questions .prev{
+    font-size:35px;
+    background:rgb(12, 12, 46);
+    color:white;
+    border-radius:12px;
+}
+.showcolor{
+    display:flex;
+    width:100%;
+}
+
+.questions .showcolor{
+    background-color:white;
+    text-align: center;
+}
+.questions .next{
+    font-size:40px;
+    background:rgb(12, 12, 46);
+    color:white;
+    border-radius:12px;
+}
+.questionarea{
+    text-align: left;
+    font-size: 40px;
+    color:rgb(0, 0, 8);
+    text-shadow: 4px 5px 8px whitesmoke;
+    background:yellow;
+}
+
+.colorshow-btn{
+    font-size:11px;
+    height: 100px;
+    width:140px;
+    border-radius: 20px;
+    background:blue;
+    border-radius:12px;
+}
